@@ -1,0 +1,62 @@
+
+nav {
+    background-color: #333333;
+    padding-top:0 ;
+}
+
+nav .profile_pic {
+    margin:10px 10px;
+    /* margin-bottom: 30px; */
+    border-radius: 50%;
+}
+
+.name_info {
+    display: flex;
+}
+
+nav .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container .logo{
+    margin-left: 0.5rem;
+}
+
+nav .container p {
+    color: white;
+    align-items: center;
+}
+
+
+nav .container h3 {
+    color: white;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+
+nav .go {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    /* margin-bottom: 15px; */
+}
+nav .go p {
+    color: white;
+}
+
+nav .go  img{
+    margin-left: 5px;
+    margin-top: 12px;
+}
+
+nav .go a{
+    text-decoration: none;
+}
+
+nav .go a p:hover {
+    color: darkred;
+}
+

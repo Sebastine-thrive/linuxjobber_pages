@@ -1,0 +1,287 @@
+ 
+ .parentdiv {
+     display: flex;
+     flex-direction: row;
+     margin-top: 6rem;
+     margin-bottom: 8rem;
+     margin-left: 6rem;
+ }
+
+ .card1 {
+    width: 450px;
+    height: auto;
+    padding-top: 0.5rem;
+    background-color: white;
+    box-shadow: 2px 4px 6px gray;
+    border-radius: 10px;
+}
+ 
+
+ .yourcourse{
+    width: 24rem;
+    padding-bottom: 2rem; 
+    margin-right: 1rem; 
+
+}
+
+.yourcourse h5 {
+    color: #066AEF;
+}
+
+.head_buttons {
+    display: flex;
+    margin-bottom: 2rem;
+
+}
+
+.head_button1 {
+    display: flex;
+    align-items: center;
+    width: 9rem;
+    height: 2.5rem;
+    padding-left: 12px;
+    padding-right: 5px;
+    background-color: #F1F3FD;
+    border: none;
+    border-radius: 10px;
+    margin-right: 1rem;
+
+}
+
+.head_button1 .span1 {
+  color: #ACB7EB;
+    padding-left: 8px;
+
+}
+
+.head_button1 .span_active {
+color: #002851;
+  padding-left: 8px;
+
+}
+
+.head_button1 img {
+    padding-right: 20px;
+    color: #002851;
+}
+
+.head_button3 {
+    display: flex;
+    align-items: center;
+    width: 8rem;
+height: 2.5rem;
+padding-left: 12px;
+padding-right: 5px;
+background-color: #F1F3FD;
+border: none;
+border-radius: 10px;
+margin-right: 1rem;
+}
+
+.head_button3 .span1 {
+  color: #ACB7EB;
+  padding-left: 6px;
+}
+
+.head_button3 .span_active {
+color: #002851;
+  padding-left: 6px;
+
+}
+
+.head_button3 img {
+    padding-right: 20px;
+    color: #002851;
+}
+
+
+.head_button2 {
+ display: flex;
+ align-items: center;
+width: 10rem;
+height: 2.5rem;
+padding-left: 15px;
+/* padding:0 5px;  */
+color: #ACB7EB;
+background-color: #F1F3FD;
+border: none;
+border-radius: 10px;
+margin-right: 1rem;
+
+/* margin-top: 15px; */
+}
+
+.head_button2 img {
+    padding-right: 8px;
+    color: #ACB7EB;
+}
+
+.head_button2 #number {
+    margin-left: 7px;
+    padding-left: 7px;
+}
+
+
+
+.head_button2 .span1 {
+    /* margin-bottom: -12px; */
+    color: #ACB7EB;
+    padding-right: 15px;
+}
+
+
+.head_button2 .span2 {
+    color: #ACB7EB;
+    border-left: 2px solid #ACB7EB; 
+    padding-left: 5px;
+}
+
+/* button 2  active */
+
+
+.span_show {
+    color: #002851;
+    padding-right: 15px;
+}
+
+.span_show2 {
+    color: #002851;
+    border-left: 2px solid #ACB7EB; 
+    padding-left: 5px;
+}
+
+/* end */
+
+
+
+/* for course list */
+
+.list_body {
+    margin-right: 1rem;
+}
+
+.courselist_body {
+    margin-top: 40px;
+    overflow-y: scroll; 
+    scroll-behavior: smooth;
+    width: 400px;
+    height:500px; 
+}
+
+.courselist_body ul:hover{
+    background: #F1F3FD;;
+}
+
+.courselist_body ul:active{
+    background: #F1F3FD;;
+}
+
+.course_list {
+    list-style-image: url('../../assets/play_button.png');
+    font-size: 18px;
+    align-items: center;
+    padding-top:10px ;
+    padding-bottom: 18px;
+    padding-left: 7px;
+    padding-right: 15px;
+    margin-right: 0;
+    border-bottom: 3px solid #F1F3FD;
+}
+
+
+.studentlist_body {
+    margin-top: 40px;
+    overflow-y: scroll;
+    width: 400px;
+    height:500px;
+    scroll-behavior: smooth;
+}
+
+/* for studentlist  */
+
+.studentlist_body ul:hover{
+    background: #F1F3FD;;
+}
+
+.studentlist_body ul:active{
+    background: #F1F3FD;;
+}
+
+.student_list {
+    list-style-image: url('../../assets/ellipse_list.png');
+    font-size: 18px;
+    align-items: center;
+    padding-top:10px ;
+    padding-bottom: 18px;
+    padding-left: 7px;
+    padding-right: 15px;
+    margin-right: 0;
+    border-bottom: 3px solid #F1F3FD;
+}
+
+.student_list button {
+    display: inline-flex;
+    align-items: center;
+    margin-top: -10px;
+
+}
+
+.student_list button:hover {
+    background: linear-gradient(180deg, #860164 0%, #CA0151 100%);
+    color: white;
+}
+
+.student_list button:active{
+    background: linear-gradient(180deg, #860164 0%, #CA0151 100%);
+    color: white;
+}
+
+.student_list button img{
+    padding-bottom: -10px;
+}
+
+.studentlist_button {
+    float: right;
+    padding: 10px ;
+    color: #ACB7EB;
+    border-radius: 8px;
+    border: 1px solid #ACB7EB;
+}
+
+.studentlist_button img{
+    margin-right: 10px;
+}
+
+/* End */
+
+.contentdiv {
+    width: 60rem;
+    margin-top: 4rem;
+    margin-left: 8rem;
+}
+
+.content_buttons {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.card3{
+    width: 700px;
+    height: 544px;
+    background-color: white;
+    box-shadow: 2px 4px 6px gray;
+    border-radius: 10px;
+    padding-bottom: 0; 
+    /* padding-bottom:4rem ; */
+
+ }  
+
+.card3 .card_body{ 
+    padding-top: 1rem ; 
+    padding-bottom: .5rem;
+    padding-right: 1rem;
+    padding-left: 1rem; 
+    height: auto; 
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+ }

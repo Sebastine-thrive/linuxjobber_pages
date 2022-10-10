@@ -1,0 +1,72 @@
+.messagecard {
+    display: flex;
+    flex-direction: column;
+    max-width: 14rem;
+   
+}
+
+
+.messagecard .card{
+    position: relative;
+    box-shadow: 2px 4px 6px gray;
+    padding: .5rem 1rem;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.messagecard span{
+    text-align: right;
+    color:#ACB7EB;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+.messagecard2 {
+    display: flex;
+    flex-direction: column;
+    min-width: 14rem;
+    align-items: flex-end;
+}
+
+
+.messagecard2 .cardyou{
+    position: relative;
+    background: #ACB7EB;
+    box-shadow: 2px 4px 6px gray;
+    padding: .5rem 1rem;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    margin-top: 2px;
+    position: relative;
+    width: 14rem; 
+
+}
+
+.messagecard2 .spans{
+    display: flex;
+    justify-content: space-between;
+}
+
+.messagecard2 .span1{
+    margin-left: 0;
+    color:#ACB7EB;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;   
+    align-self: flex-start;
+}
+
+.messagecard2 .span2{
+    text-align: right;
+    color:#ACB7EB;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;  
+    margin-left: 12rem;  
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+.MuiSlider-thumb{
+  color: #fff;
+  border: 6px solid #CC417461;
+}
+
+.MuiSlider-rail{
+  color:#F1F3FD;
+  border: none;
+}
+
+.MuiSlider-track{
+  background: linear-gradient(90deg, #800165 0%, #D3014E 100%);
+  border: none;
+}
+
+.MuiSlider-track, .Mui-focused, .MuiSlider-thumb{
+        list-style-type: none;
+}
+
+
+
+

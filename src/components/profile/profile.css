@@ -1,0 +1,108 @@
+ .userprofile{
+    flex-direction: column;
+    width: 100vw;
+ }
+
+ .profile{
+    flex-direction: row;
+    width: 15rem;
+    padding-bottom: 2rem; 
+    margin-right: 10rem;
+}
+
+.profile_picture .img1 {
+    border-radius: 10px;
+    padding-top: 5px;
+    color: white;
+    position: relative;
+}
+
+.profile_picture p {
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(180deg, #800165 0%, #D3014E 100%);    
+    border-radius: 40%;
+    text-align: center;
+    margin-top: -20px;
+    margin-left: 6.8rem;
+    position: relative;
+    z-index: 1000;
+} 
+
+.profile_picture p a {
+    text-decoration: none;
+    color: white;
+}
+
+ .profile h2{
+    margin-left: 2.5rem;
+    margin-top: -10px;
+}
+
+.username span {
+    font-size: 25;
+ }
+
+.profile_buttons {
+    align-items: center;
+    padding-left: .5rem;
+}  
+
+.button_info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: .8rem 1rem;
+}
+
+.button_info .symbol{
+    margin-right: 2rem;
+}
+
+.button_info #title1 {
+    margin-right: 5rem;
+    margin-left: .2rem;
+}
+
+.button_info #title2 {
+    margin-left: .2rem;
+    margin-right: 4rem;
+}
+
+.button_info #title3 {
+    margin-right: 2.2rem;
+}
+
+
+.profile_buttons .logout {
+    text-align: center;
+    color: #ACB7EB;
+    font-weight: 500;
+}
+
+
+.button_info a {
+    text-decoration: none;
+    color:#30302E;
+}
+
+.button_info .active {
+    background: #F1F3FD;
+    border-radius: 15px;
+}
+
+  .button_info a:hover{
+    background: #F1F3FD;
+    border-radius: 10px;
+  }
+
+ 
+
+  
+
+
+
+
