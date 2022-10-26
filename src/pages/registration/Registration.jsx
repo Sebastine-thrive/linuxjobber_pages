@@ -183,7 +183,7 @@ export default function Registration() {
                                         <br />
 
                                         {completedButton && (
-                                            <span className='answer_body' > <button className='answer ' onClick={() => handleCompletedTrue()}> Yes </button>
+                                            <span className='answer_body' > <button className='answer ' onClick={ handleCompletedTrue}> Yes </button>
                                                 <button className='answer' onClick={() => handleCompletedFalse()}> No </button>
                                             </span>
                                         )}

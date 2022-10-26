@@ -95,7 +95,7 @@ export default function Interest() {
 
     const handleSliderChange7 = (event, newValue) => {
         setValue7(newValue);
-        if ((newValue === value0) || (newValue === value1) ||(newValue === value2)  || (newValue === value3) || (newValue=== value4)  || (newValue === value5)  ||(newValue === value6)) {
+        if ((newValue === value0) || (newValue === value1) || (newValue === value2) || (newValue === value3) || (newValue === value4) || (newValue === value5) || (newValue === value6)) {
 
             setEqualValue(true)
         } else {
@@ -105,7 +105,7 @@ export default function Interest() {
 
 
 
-    
+
     return (
         <div className='interest'>
             <UserProfile />
@@ -278,21 +278,18 @@ export default function Interest() {
                         </div>
 
                         {equalValue && (
-                             <h4 className='error'> * You cannot pick a number twice </h4> 
+                            <h4 className='error'> * You cannot pick a number twice </h4>
                         )}
 
                     </div>
-                    
+
                     {(equalValue == null) && (
                         <Link to='/your_profile'>
                             <button className='done'> Done  </button>
                         </Link>
                     )}
 
-                  
                 </Card>
-             
-
             </div>
 
         </div>

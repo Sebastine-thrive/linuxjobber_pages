@@ -16,16 +16,16 @@
     padding-top: 4rem;
 }
 
-label {
+.content label {
     display: block;
     font-weight: 500;
     padding-bottom: .8rem;    
 }
-label span {
+.content label span {
     margin-left: 10px;
 }
 
-p span {
+.content p span {
     margin-left: 10px;
 }
 

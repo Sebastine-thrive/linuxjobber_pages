@@ -9,16 +9,6 @@ import Darkblueforward_icon from '../../assets/darkblue_forward _icon.png'
 export class Lab extends Component {
     render() {
 
-        // let input = document.getElementById("inputTag");
-        // let imageName = document.getElementById("imageName");
-
-        // input.addEventListener("change", () => {
-        //     let inputImage = document.querySelector("input[type=file]").files[0];
-
-        //     imageName.innerText = inputImage.name;
-        // })
-
-
         return (
 
 
